@@ -5,8 +5,7 @@ var graphviz = module.exports = function(format) {
     if (format == "png") {
         return function() {
 
-            return spawnStream("dot", ["-T", format]);
-            //return spawnStream(uiflow.DOT_PATH, ["-T", format]);
+            return spawnStream(uiflow.DOT_PATH, ["-T", format]);
         };
     }
     if (format == "svg") {
