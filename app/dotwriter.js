@@ -1,6 +1,7 @@
 var dot = module.exports = {};
 
 dot.graph = {
+    bgcolor: "transparent",
     charset: "UTF-8",
     labelloc: "t",
     labeljust: "r",
